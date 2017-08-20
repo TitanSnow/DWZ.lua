@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>${title}</title>
+    </head>
+    
+    <body>
+        <h1>${title}</h1>
+        <p>Welcome!</p>
+        <form action="add.lua" method="post" accept-charset="utf-8">
+            Long URL: <input type="text" name="url" autocomplete="false" placeholder="Long URL" /> <br />
+            Short URL: http://${base}/t?<input type="text" name="short" autocomplete="false" placeholder="Short URL"> <br />
+            <input type="submit" name="submit" id="submit" value="Submit!" />
+        </form>
+    </body>
+</html>
